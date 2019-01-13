@@ -48,7 +48,7 @@
 
 #pragma mark - #pragma mark Actions
 - (IBAction) sendButtonTapped: (id) sender {
-    NSString* theMessage = [NSString stringWithFormat:@"%@ I’m being %@ and feeling %@ about it.", notesField_.text ? notesField_.text : @"",[activities_ objectAtIndex:[emailPicker_ selectedRowInComponent:0]], [feelings_ objectAtIndex:[emailPicker_ selectedRowInComponent:1]]];
+    NSString* theMessage = [NSString stringWithFormat:@"%@. I’m being %@ and feeling %@ about it.", notesField_.text ? notesField_.text : @"",[activities_ objectAtIndex:[emailPicker_ selectedRowInComponent:0]], [feelings_ objectAtIndex:[emailPicker_ selectedRowInComponent:1]]];
     NSLog(@"%@",theMessage);
     if ([MFMailComposeViewController canSendMail]) {
         MFMailComposeViewController* mailController = [[MFMailComposeViewController alloc] init];
@@ -129,7 +129,7 @@ messageController.messageComposeDelegate = self;
         }
     }
 */
-    NSString* Message = [NSString stringWithFormat:@"%@ I’m being %@ and feeling %@ about it.", notesField_.text ? notesField_.text : @"",[activities_ objectAtIndex:[emailPicker_ selectedRowInComponent:0]], [feelings_ objectAtIndex:[emailPicker_ selectedRowInComponent:1]]];
+    NSString* Message = [NSString stringWithFormat:@"%@. I’m being %@ and feeling %@ about it.", notesField_.text ? notesField_.text : @"",[activities_ objectAtIndex:[emailPicker_ selectedRowInComponent:0]], [feelings_ objectAtIndex:[emailPicker_ selectedRowInComponent:1]]];
     NSLog(@"%@",Message);
     MFMessageComposeViewController *mailController = [[MFMessageComposeViewController alloc] init];
     if([MFMessageComposeViewController canSendText])
