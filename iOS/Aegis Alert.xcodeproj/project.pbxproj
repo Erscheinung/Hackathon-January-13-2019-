@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A218B9A21E62B9D007A0CFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A218B9921E62B9D007A0CFF /* main.m */; };
+		2A218B9D21E62B9E007A0CFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A218B9C21E62B9E007A0CFF /* AppDelegate.m */; };
+		2A218BA021E62B9E007A0CFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A218B9F21E62B9E007A0CFF /* ViewController.m */; };
+		2A218BA321E62B9E007A0CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A218BA121E62B9E007A0CFF /* Main.storyboard */; };
+		2A218BA521E62B9E007A0CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A218BA421E62B9E007A0CFF /* Assets.xcassets */; };
+		2A218BA821E62B9E007A0CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A218BA621E62B9E007A0CFF /* LaunchScreen.storyboard */; };
+		2A218BB321E62B9E007A0CFF /* Jungian_TypologyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A218BB221E62B9E007A0CFF /* Jungian_TypologyTests.m */; };
+		2A218BBE21E62B9E007A0CFF /* Jungian_TypologyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A218BBD21E62B9E007A0CFF /* Jungian_TypologyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A218BAF21E62B9E007A0CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A218B8D21E62B9D007A0CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A218B9421E62B9D007A0CFF;
+			remoteInfo = "Jungian Typology";
+		};
+		2A218BBA21E62B9E007A0CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A218B8D21E62B9D007A0CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A218B9421E62B9D007A0CFF;
+			remoteInfo = "Jungian Typology";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A218B9521E62B9D007A0CFF /* Aegis Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aegis Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A218B9921E62B9D007A0CFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A218B9B21E62B9D007A0CFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A218B9C21E62B9E007A0CFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A218B9E21E62B9E007A0CFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A218B9F21E62B9E007A0CFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A218BA221E62B9E007A0CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A218BA421E62B9E007A0CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A218BA721E62B9E007A0CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A218BA921E62B9E007A0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A218BAE21E62B9E007A0CFF /* Aegis AlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aegis AlertTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A218BB221E62B9E007A0CFF /* Jungian_TypologyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jungian_TypologyTests.m; sourceTree = "<group>"; };
+		2A218BB421E62B9E007A0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A218BB921E62B9E007A0CFF /* Aegis AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aegis AlertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A218BBD21E62B9E007A0CFF /* Jungian_TypologyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jungian_TypologyUITests.m; sourceTree = "<group>"; };
+		2A218BBF21E62B9E007A0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A218B9221E62B9D007A0CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A218BAB21E62B9E007A0CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A218BB621E62B9E007A0CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A218B8C21E62B9D007A0CFF = {
+			isa = PBXGroup;
+			children = (
+				2A218B9721E62B9D007A0CFF /* Jungian Typology */,
+				2A218BB121E62B9E007A0CFF /* Jungian TypologyTests */,
+				2A218BBC21E62B9E007A0CFF /* Jungian TypologyUITests */,
+				2A218B9621E62B9D007A0CFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A218B9621E62B9D007A0CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A218B9521E62B9D007A0CFF /* Aegis Alert.app */,
+				2A218BAE21E62B9E007A0CFF /* Aegis AlertTests.xctest */,
+				2A218BB921E62B9E007A0CFF /* Aegis AlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A218B9721E62B9D007A0CFF /* Jungian Typology */ = {
+			isa = PBXGroup;
+			children = (
+				2A218B9B21E62B9D007A0CFF /* AppDelegate.h */,
+				2A218B9C21E62B9E007A0CFF /* AppDelegate.m */,
+				2A218B9E21E62B9E007A0CFF /* ViewController.h */,
+				2A218B9F21E62B9E007A0CFF /* ViewController.m */,
+				2A218BA121E62B9E007A0CFF /* Main.storyboard */,
+				2A218BA421E62B9E007A0CFF /* Assets.xcassets */,
+				2A218BA621E62B9E007A0CFF /* LaunchScreen.storyboard */,
+				2A218BA921E62B9E007A0CFF /* Info.plist */,
+				2A218B9821E62B9D007A0CFF /* Supporting Files */,
+			);
+			path = "Jungian Typology";
+			sourceTree = "<group>";
+		};
+		2A218B9821E62B9D007A0CFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A218B9921E62B9D007A0CFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A218BB121E62B9E007A0CFF /* Jungian TypologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A218BB221E62B9E007A0CFF /* Jungian_TypologyTests.m */,
+				2A218BB421E62B9E007A0CFF /* Info.plist */,
+			);
+			path = "Jungian TypologyTests";
+			sourceTree = "<group>";
+		};
+		2A218BBC21E62B9E007A0CFF /* Jungian TypologyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A218BBD21E62B9E007A0CFF /* Jungian_TypologyUITests.m */,
+				2A218BBF21E62B9E007A0CFF /* Info.plist */,
+			);
+			path = "Jungian TypologyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A218B9421E62B9D007A0CFF /* Aegis Alert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A218BC221E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "Aegis Alert" */;
+			buildPhases = (
+				2A218B9121E62B9D007A0CFF /* Sources */,
+				2A218B9221E62B9D007A0CFF /* Frameworks */,
+				2A218B9321E62B9D007A0CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aegis Alert";
+			productName = "Jungian Typology";
+			productReference = 2A218B9521E62B9D007A0CFF /* Aegis Alert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A218BAD21E62B9E007A0CFF /* Aegis AlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A218BC521E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "Aegis AlertTests" */;
+			buildPhases = (
+				2A218BAA21E62B9E007A0CFF /* Sources */,
+				2A218BAB21E62B9E007A0CFF /* Frameworks */,
+				2A218BAC21E62B9E007A0CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A218BB021E62B9E007A0CFF /* PBXTargetDependency */,
+			);
+			name = "Aegis AlertTests";
+			productName = "Jungian TypologyTests";
+			productReference = 2A218BAE21E62B9E007A0CFF /* Aegis AlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A218BB821E62B9E007A0CFF /* Aegis AlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A218BC821E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "Aegis AlertUITests" */;
+			buildPhases = (
+				2A218BB521E62B9E007A0CFF /* Sources */,
+				2A218BB621E62B9E007A0CFF /* Frameworks */,
+				2A218BB721E62B9E007A0CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A218BBB21E62B9E007A0CFF /* PBXTargetDependency */,
+			);
+			name = "Aegis AlertUITests";
+			productName = "Jungian TypologyUITests";
+			productReference = 2A218BB921E62B9E007A0CFF /* Aegis AlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A218B8D21E62B9D007A0CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jungian Typology";
+				TargetAttributes = {
+					2A218B9421E62B9D007A0CFF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2A218BAD21E62B9E007A0CFF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A218B9421E62B9D007A0CFF;
+					};
+					2A218BB821E62B9E007A0CFF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A218B9421E62B9D007A0CFF;
+					};
+				};
+			};
+			buildConfigurationList = 2A218B9021E62B9D007A0CFF /* Build configuration list for PBXProject "Aegis Alert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A218B8C21E62B9D007A0CFF;
+			productRefGroup = 2A218B9621E62B9D007A0CFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A218B9421E62B9D007A0CFF /* Aegis Alert */,
+				2A218BAD21E62B9E007A0CFF /* Aegis AlertTests */,
+				2A218BB821E62B9E007A0CFF /* Aegis AlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A218B9321E62B9D007A0CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A218BA821E62B9E007A0CFF /* LaunchScreen.storyboard in Resources */,
+				2A218BA521E62B9E007A0CFF /* Assets.xcassets in Resources */,
+				2A218BA321E62B9E007A0CFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A218BAC21E62B9E007A0CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A218BB721E62B9E007A0CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A218B9121E62B9D007A0CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A218BA021E62B9E007A0CFF /* ViewController.m in Sources */,
+				2A218B9D21E62B9E007A0CFF /* AppDelegate.m in Sources */,
+				2A218B9A21E62B9D007A0CFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A218BAA21E62B9E007A0CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A218BB321E62B9E007A0CFF /* Jungian_TypologyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A218BB521E62B9E007A0CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A218BBE21E62B9E007A0CFF /* Jungian_TypologyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A218BB021E62B9E007A0CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A218B9421E62B9D007A0CFF /* Aegis Alert */;
+			targetProxy = 2A218BAF21E62B9E007A0CFF /* PBXContainerItemProxy */;
+		};
+		2A218BBB21E62B9E007A0CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A218B9421E62B9D007A0CFF /* Aegis Alert */;
+			targetProxy = 2A218BBA21E62B9E007A0CFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A218BA121E62B9E007A0CFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A218BA221E62B9E007A0CFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A218BA621E62B9E007A0CFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A218BA721E62B9E007A0CFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A218BC021E62B9E007A0CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A218BC121E62B9E007A0CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A218BC321E62B9E007A0CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jungian Typology/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HackathonProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A218BC421E62B9E007A0CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jungian Typology/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HackathonProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A218BC621E62B9E007A0CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jungian TypologyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JungianTypology.Jungian-TypologyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aegis Alert.app/Aegis Alert";
+			};
+			name = Debug;
+		};
+		2A218BC721E62B9E007A0CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jungian TypologyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JungianTypology.Jungian-TypologyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aegis Alert.app/Aegis Alert";
+			};
+			name = Release;
+		};
+		2A218BC921E62B9E007A0CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jungian TypologyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JungianTypology.Jungian-TypologyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jungian Typology";
+			};
+			name = Debug;
+		};
+		2A218BCA21E62B9E007A0CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jungian TypologyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JungianTypology.Jungian-TypologyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jungian Typology";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A218B9021E62B9D007A0CFF /* Build configuration list for PBXProject "Aegis Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A218BC021E62B9E007A0CFF /* Debug */,
+				2A218BC121E62B9E007A0CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A218BC221E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "Aegis Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A218BC321E62B9E007A0CFF /* Debug */,
+				2A218BC421E62B9E007A0CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A218BC521E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "Aegis AlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A218BC621E62B9E007A0CFF /* Debug */,
+				2A218BC721E62B9E007A0CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A218BC821E62B9E007A0CFF /* Build configuration list for PBXNativeTarget "Aegis AlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A218BC921E62B9E007A0CFF /* Debug */,
+				2A218BCA21E62B9E007A0CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A218B8D21E62B9D007A0CFF /* Project object */;
+}
